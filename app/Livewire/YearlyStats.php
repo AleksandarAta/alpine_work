@@ -6,8 +6,7 @@ use Carbon\Carbon;
 use App\Models\Orders;
 use Livewire\Component;
 
-use function Laravel\Prompts\alert;
-use function PHPUnit\Framework\throwException;
+
 
 class YearlyStats extends Component
 {
@@ -57,8 +56,6 @@ class YearlyStats extends Component
 
     public function render()
     {   
- 
-
         return view('livewire.yearly-stats');
     }
 }

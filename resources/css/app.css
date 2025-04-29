@@ -5,3 +5,10 @@
 [x-cloak] {
     display: none;
 }
+
+:root {
+    --dark: 71 85 105;
+    --whiteText: 255, 255, 255;
+    --darkLine: 0 , 0 , 0 ;
+    --chartdark: 62,62,66;
+}

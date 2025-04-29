@@ -11,7 +11,8 @@ labels: keys,
 datasets: [{
   label: '# of Orders',
   data: values,
-  borderWidth: 1
+  borderWidth: 1,
+  borderColor: 'darkLine',
 }]
 },
 options: {
@@ -39,10 +40,9 @@ Livewire.on('updateChart', () => {
             <option value={{ $year }}> {{$year}}</option>
         @endforeach
     </select>
-<div class="bg-green-200">
+<div class="bg-lime-300">
     <canvas id="chart" x-ref ="chart"></canvas>
 </div>  
-</div>
 @if (session('alert'))
     <script>
         alert("{{ session('alert') }}");

@@ -13,6 +13,12 @@ export default {
 
     theme: {
         extend: {
+             colors: {
+                    dark: "rgb(var(--dark))",
+                    whiteText: "rgb(var(--whiteText))",
+                    darkLine: "rgb(var(--darkLine))",
+                    chartdark: "rgb(var(-chart-dark))",
+                },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
